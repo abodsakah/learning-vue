@@ -1,9 +1,9 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+
 
   font-weight: normal;
 }
@@ -24,12 +24,15 @@ a,
 @media (min-width: 1024px) {
   body {
     display: flex;
+    flex-direction: column;
     place-items: center;
+    place-content: center;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 }
