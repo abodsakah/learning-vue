@@ -33,3 +33,20 @@ This project is just for me to learn Vuejs and Fastify.
         - [ ] Create a form to submit post
     - [ ] Create "Delete post" page
     
+### Backend
+- [x] Create fastify server
+- [ ] Create routes
+    - [ ] Create posts route
+    - [ ] Create comments route
+    - [ ] Create users route
+- [ ] Create database models
+    - [ ] Create posts table
+    - [ ] Create comments table
+    - [ ] Create users table
+- [ ] Create controllers
+    - [ ] Create posts controller
+    - [ ] Create comments controller
+
+## Other
+- [ ] Create docker-compose file
+- [ ] Deploy to Azure
