@@ -47,6 +47,6 @@ This project is just for me to learn Vuejs and Fastify.
     - [ ] Create posts controller
     - [ ] Create comments controller
 
-## Other
+### Other
 - [ ] Create docker-compose file
 - [ ] Deploy to Azure
